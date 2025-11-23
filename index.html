@@ -1,1 +1,167 @@
-<!DOCTYPE html><html><body><iframe src="https://copilotstudio.microsoft.com/environments/Default-bd8df570-b28f-4f08-9b0e-aa235bd98c1a/bots/cr250_bstTechChat/webchat?__version__=2" frameborder="0" style="width: 100%; height: 100%;"></iframe></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Pages Project</title>
+    <style>
+        /* Basic styling for the structure based on the Zen template classes */
+        .container {
+            width: 90%;
+            max-width: 1200px; /* Example max width */
+            margin: 0 auto;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        .hero-unit {
+            background-color: #f7f9fa; /* Example background color */
+        }
+        .hero-unit__title {
+            font-size: 2.5em;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .hero-unit__subtitle {
+            font-size: 1.2em;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .column--md-12 {
+            width: 100%;
+        }
+        .column--sm-4 {
+            width: 33.333%; /* For three blocks in a row on small screens and up */
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        .custom-block {
+            text-align: center;
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .custom-block__icon img {
+            max-width: 60px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        .search-box input[type="search"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #d9d9d9;
+            color: maroon;
+            box-sizing: border-box;
+        }
+        .search-box input[type="search"]::placeholder {
+            color: #a9a9a9;
+            opacity: 1; /* Corrected to 1 for visibility */
+        }
+        @media (max-width: 768px) {
+            .column--sm-4 {
+                width: 100%; /* Stack columns on smaller screens */
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="hero-unit container" style="padding-top:50px">
+  <div class="container-inner" data-search-box>
+
+    <div class="row hero-unit__row">
+      <div class="column column--md-12">
+        <div class="hero-unit__title" data-underline="help">
+          **Welcome to Our GitHub Page** </div>
+        <div class="hero-unit__subtitle">
+          Find all the documentation and resources you need below. </div>
+      </div>
+    </div>
+
+    <div class="clearfix"></div>
+
+    <div class="search-box">
+      <input type="search" placeholder="🔍 S E A R C H ">
+      </div>
+
+  </div>
+</div>
+
+<div class="container" id="main-content">
+  <div class="container-inner">
+
+    <div class="custom-blocks" id="custom-blocks">
+      <div class="row">
+
+        <div class="column column--sm-4 custom-block">
+          <a class="custom-block__link" target="_blank" href="link-for-block-1.html">
+            <div class="custom-block__icon">
+              <img class="custom-block__image" src="images/icon1.svg" alt="Block 1 Icon"> 
+            </div>
+            <h4 class="custom-block__title">
+              **Getting Started** </h4>
+            <p class="custom-block__description">
+              Learn the basics and set up your environment quickly. </p>
+          </a>
+        </div>
+
+        <div class="column column--sm-4 custom-block">
+          <a class="custom-block__link" target="_blank" href="link-for-block-2.html">
+            <div class="custom-block__icon">
+              <img class="custom-block__image" src="images/icon2.svg" alt="Block 2 Icon">
+            </div>
+            <h4 class="custom-block__title">
+              **API Reference** </h4>
+            <p class="custom-block__description">
+              Detailed documentation for all available endpoints. </p>
+          </a>
+        </div>
+
+        <div class="column column--sm-4 custom-block">
+          <a class="custom-block__link" target="_blank" href="https://github.com/your-repo/issues">
+            <div class="custom-block__icon">
+              <img class="custom-block__image" src="images/icon3.svg" alt="Block 3 Icon">
+            </div>
+            <h4 class="custom-block__title">
+              **Report a Bug** </h4>
+            <p class="custom-block__description">
+              Submit an issue or suggestion directly on GitHub. </p>
+          </a>
+        </div>
+
+      </div>
+    </div>
+    <div style="margin-top: 40px;">
+        <h3>Other Documentation Sections</h3>
+        <ul>
+            <li><a href="doc1.html">Advanced Configuration</a></li>
+            <li><a href="doc2.html">Troubleshooting Guide</a></li>
+            <li><a href="doc3.html">Contributing to the Project</a></li>
+        </ul>
+    </div>
+
+  </div>
+</div>
+
+<div class="bottom-hero-image" style="width: 100%; padding: 20px 0;">
+  <div class="container">
+    <div class="container-inner">
+      <img src="images/homepage-hero.jpg" alt="Bottom Hero Image" style="width: 100%; height: auto; display: block;"> 
+    </div>
+  </div>
+</div>
+
+<script>
+  // The Zendesk-specific search placeholder script is no longer necessary 
+  // since the placeholder is set directly in the HTML <input> tag above.
+</script>
+
+</body>
+</html>
